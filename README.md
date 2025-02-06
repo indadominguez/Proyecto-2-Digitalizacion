@@ -1,6 +1,7 @@
 # Indalecio BPM
 ## Objetivo General:
-Desarrollar una plataforma de gestión y automatización de procesos empresariales para mejorar la eficiencia operativa, reducir errores humanos y optimizar la integración entre distintos sistemas utilizados por la organización.
+- Desarrollar una plataforma de gestión y automatización de procesos empresariales para mejorar la eficiencia operativa. 
+- Reducir errores humanos y optimizar la integración entre distintos sistemas utilizados por la organización.
 
 ## Funcionalidades Clave:
 - Automatización de Flujos de Trabajo Manuales:
@@ -12,7 +13,7 @@ Desarrollar una plataforma de gestión y automatización de procesos empresarial
 - Integración con sistemas ERP, CRM y bases de datos externas mediante APIs.
 - Sincronización automática de datos para evitar duplicación y errores.
 - Soporte para servicios web y conexión a aplicaciones en la nube (Google Drive, Slack, etc.).
-- 
+  
 ## Análisis y Optimización de Procesos:
 - Monitorización en tiempo real del rendimiento de los procesos.
 - Generación de informes y dashboards con métricas clave (KPI).
