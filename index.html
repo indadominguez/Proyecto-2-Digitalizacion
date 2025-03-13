@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Tareas</title>
+  <link rel="stylesheet" href="src/styles.css"> <!-- Ruta al archivo CSS -->
+</head>
+<body>
+
+  <h1>Gestor de Tareas - SimpleTask</h1>
+
+  <div class="task-input">
+    <input type="text" id="task-name" placeholder="Nombre de la tarea">
+    <textarea id="task-description" placeholder="Descripción"></textarea>
+    <input type="date" id="due-date">
+    <select id="priority">
+      <option value="low">Baja</option>
+      <option value="medium">Media</option>
+      <option value="high">Alta</option>
+    </select>
+    <button id="add-task">Agregar tarea</button>
+  </div>
+
+  <h2>Filtrar tareas:</h2>
+  <button id="filter-all">Todas</button>
+  <button id="filter-active">Pendientes</button>
+  <button id="filter-completed">Completadas</button>
+
+  <ul id="task-list"></ul>
+
+  <div id="task-counter">
+    <p><strong>Tareas activas:</strong> <span id="active-count">0</span></p>
+    <p><strong>Tareas completadas:</strong> <span id="completed-count">0</span></p>
+  </div>
+
+  <script src="src/app.js"></script> <!-- Ruta al archivo JS -->
+</body>
+</html>
+
+
+

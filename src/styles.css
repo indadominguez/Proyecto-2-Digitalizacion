@@ -1,0 +1,151 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Título principal */
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Contenedor de entrada de tarea */
+  .task-input {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos de los inputs y select */
+  .task-input input,
+  .task-input textarea,
+  .task-input select,
+  .task-input button {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  /* Estilo para el botón de agregar tarea */
+  .task-input button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .task-input button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Filtros de tareas */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para la lista de tareas */
+  #task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .task-item {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+  }
+  
+  .task-item.completed {
+    background-color: #d3f9d8;
+    text-decoration: line-through;
+  }
+  
+  .task-item button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .task-item button:hover {
+    background-color: #e53e3e;
+  }
+  
+  /* Contadores de tareas */
+  #task-counter {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  #task-counter p {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Añadir un toque más visual para el fondo */
+  .task-input input:focus,
+  .task-input textarea:focus,
+  .task-input select:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  
+  
