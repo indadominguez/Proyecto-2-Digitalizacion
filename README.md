@@ -4,6 +4,8 @@
 
 Es una aplicación web de gestión de tareas que permite a los usuarios agregar, editar, eliminar, marcar como completadas y filtrar tareas. Las tareas se pueden clasificar por prioridad (baja, media o alta) y fecha de vencimiento. La aplicación también guarda las tareas localmente en el navegador utilizando `localStorage`, lo que permite que las tareas persistan incluso después de recargar la página.
 
+**Para hacer el trabajo un poco diferente al resto de la clase, he decidido hacer el script, utilizando HTML, CSS y JavaScript**
+
 ## Características
 
 - **Agregar tarea**: Los usuarios pueden agregar nuevas tareas con un nombre, fecha de vencimiento y prioridad.
