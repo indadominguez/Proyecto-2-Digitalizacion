@@ -22,5 +22,5 @@ Si tienes alguna pregunta o encuentras algún problema, no dudes en abrir un *is
 
 ## Documentación
 
-Toda la documentación está disponible en la [wiki del proyecto](#enlace-a-la-wiki).
+Toda la documentación está disponible en la [wiki del proyecto](https://github.com/indadominguez/Proyecto-2-Digitalizacion/blob/main/WIKI.md).
 
