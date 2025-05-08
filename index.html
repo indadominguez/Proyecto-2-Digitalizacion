@@ -1,42 +1,46 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es"> <!-- Define el idioma del contenido como español -->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gestor de Tareas</title>
-  <link rel="stylesheet" href="src/styles.css"> <!-- Ruta al archivo CSS -->
+  <meta charset="UTF-8"> <!-- Codificación de caracteres para admitir acentos y símbolos -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajuste para dispositivos móviles -->
+  <title>Gestor de Tareas</title> <!-- Título que aparece en la pestaña del navegador -->
+  <link rel="stylesheet" href="src/styles.css"> <!-- Enlace al archivo de estilos CSS -->
 </head>
 <body>
 
-  <h1>Gestor de Tareas - SimpleTask</h1>
+  <h1>Gestor de Tareas - SimpleTask</h1> <!-- Encabezado principal -->
 
+  <!-- Formulario de entrada para añadir nuevas tareas -->
   <div class="task-input">
-    <input type="text" id="task-name" placeholder="Nombre de la tarea">
-    <textarea id="task-description" placeholder="Descripción"></textarea>
-    <input type="date" id="due-date">
-    <select id="priority">
+    <input type="text" id="task-name" placeholder="Nombre de la tarea"> <!-- Campo para el nombre de la tarea -->
+    <textarea id="task-description" placeholder="Descripción"></textarea> <!-- Campo para la descripción -->
+    <input type="date" id="due-date"> <!-- Selección de fecha límite -->
+    <select id="priority"> <!-- Selector de prioridad -->
       <option value="low">Baja</option>
       <option value="medium">Media</option>
       <option value="high">Alta</option>
     </select>
-    <button id="add-task">Agregar tarea</button>
+    <button id="add-task">Agregar tarea</button> <!-- Botón para agregar la tarea -->
   </div>
 
+  <!-- Filtros para mostrar tareas según su estado -->
   <h2>Filtrar tareas:</h2>
-  <button id="filter-all">Todas</button>
-  <button id="filter-active">Pendientes</button>
-  <button id="filter-completed">Completadas</button>
+  <button id="filter-all">Todas</button> <!-- Muestra todas las tareas -->
+  <button id="filter-active">Pendientes</button> <!-- Muestra solo tareas sin completar -->
+  <button id="filter-completed">Completadas</button> <!-- Muestra tareas ya realizadas -->
 
-  <ul id="task-list"></ul>
+  <ul id="task-list"></ul> <!-- Lista dinámica donde se muestran las tareas -->
 
+  <!-- Contador de tareas activas y completadas -->
   <div id="task-counter">
     <p><strong>Tareas activas:</strong> <span id="active-count">0</span></p>
     <p><strong>Tareas completadas:</strong> <span id="completed-count">0</span></p>
   </div>
 
-  <script src="src/app.js"></script> <!-- Ruta al archivo JS -->
+  <script src="src/app.js"></script> <!-- Enlace al archivo JavaScript principal -->
 </body>
 </html>
+
 
 
 
