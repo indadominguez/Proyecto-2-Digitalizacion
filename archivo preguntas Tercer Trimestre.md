@@ -80,3 +80,13 @@
  
  - Se asegura que los datos sean consistentes validando las entradas del usuario (por ejemplo, fechas y prioridades) y actualizando los datos en tiempo real. También se realiza una limpieza y actualización de los datos almacenados en el localStorage cada vez que se modifica una tarea.
 
+## Criterio 6k) Se han tenido en cuenta la idoneidad de los recursos humanos
+
+ **¿Cómo se ha asegurado la idoneidad de los recursos humanos para este proyecto?**
+ 
+ - Para garantizar la idoneidad de los recursos humanos, se han tenido en cuenta diversos aspectos durante el desarrollo del software. Tengo competencias técnicas adecuadas en áreas clave como desarrollo web, gestión de proyectos y gestión de datos. Esto incluye el uso de tecnologías como JavaScript, HTML y almacenamiento local para crear una solución eficiente y escalable.
+
+ **¿Qué medidas se han tomado para asegurar que los recursos humanos están capacitados y actualizados?**
+ 
+ - Se ha realizado una planificación detallada de las tareas para asegurar que estoy bien capacitado en las tecnologías que se utilizan. Además, se fomenta el aprendizaje continuo, por lo que los recursos humanos reciben formación continua en nuevas tecnologías y mejores prácticas en el desarrollo de software, de modo que el equipo esté siempre actualizado.
+
