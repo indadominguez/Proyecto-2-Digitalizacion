@@ -3,17 +3,17 @@
 
 **En el caso del gestor de tareas, los datos se gestionan de la siguiente forma:**
 
-- Generación de datos: Los datos se generan cuando el usuario ingresa una nueva tarea, con campos como el nombre de la tarea, la fecha de vencimiento y la prioridad.
-- Almacenamiento: Estos datos se almacenan localmente en el navegador, utilizando localStorage o sessionStorage para persistir las tareas.
-- Modificación: Si el usuario edita una tarea o cambia su estado (completada/pending), los datos se actualizan en el almacenamiento local.
-- Eliminación: Los datos se eliminan cuando el usuario decide borrar una tarea. La eliminación actualiza el almacenamiento local, removiendo la entrada asociada.
+- **Generación de datos:** Los datos se generan cuando el usuario ingresa una nueva tarea, con campos como el nombre de la tarea, la fecha de vencimiento y la prioridad.
+- **Almacenamiento:** Estos datos se almacenan localmente en el navegador, utilizando localStorage o sessionStorage para persistir las tareas.
+- **Modificación:** Si el usuario edita una tarea o cambia su estado (completada/pending), los datos se actualizan en el almacenamiento local.
+- **Eliminación:** Los datos se eliminan cuando el usuario decide borrar una tarea. La eliminación actualiza el almacenamiento local, removiendo la entrada asociada.
 
 ## ¿Qué estrategia sigues para garantizar la consistencia e integridad de los datos?
 
 **Para garantizar la consistencia e integridad:**
 
--Uso de validaciones de entrada para asegurarse de que la información de las tareas (como fecha de vencimiento o nombre) esté en el formato adecuado antes de ser almacenada.
--Uso de una estrategia de actualización atomica donde los datos de las tareas se actualizan completamente cuando se modifica un valor para evitar datos parcialmente actualizados.
+- Uso de validaciones de entrada para asegurarse de que la información de las tareas (como fecha de vencimiento o nombre) esté en el formato adecuado antes de ser almacenada.
+- Uso de una estrategia de actualización atomica donde los datos de las tareas se actualizan completamente cuando se modifica un valor para evitar datos parcialmente actualizados.
 
 ## Si no trabajas con datos, ¿cómo podrías incluir una funcionalidad que los gestione de forma eficiente?
 
